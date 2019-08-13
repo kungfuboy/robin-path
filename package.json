@@ -1,0 +1,21 @@
+{
+  "name": "robin-path",
+  "version": "2.0.1",
+  "main": "/dist/robin.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "up": "rollup -c && yarn publish"
+  },
+  "devDependencies": {
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "cross-env": "5.2.0",
+    "parse-svg-path": "^0.1.2",
+    "svg-arc-to-cubic-bezier": "^3.1.3"
+  }
+}
